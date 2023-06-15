@@ -1,0 +1,243 @@
+:root {
+  --primary: #d5f7ec;
+  --secondary: #3f2a30;
+  --accent: #cf7328;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  background: var(--primary);
+  color: var(--secondary);
+}
+
+header {
+  height: 3rem;
+  background: var(--secondary);
+}
+
+#banner {
+  height: 80vh;
+  margin-left: 2rem;
+  line-height: 1.7rem;
+  margin-right: 2rem;
+}
+
+
+#banner,
+#services,
+#projects,
+#contact,
+footer {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+.mine-subtitle {
+  color: var(--accent);
+}
+
+.bt-container {
+  margin-top: 3.5rem;
+}
+
+.bt {
+  border: 1px transparent black;
+  padding: 1rem;
+  border-radius: 10px;
+  background: var(--accent);
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+.bt:hover {
+  border: solid 1px var(--accent);
+  background: transparent;
+}
+
+
+/* SERVICES AREA */
+#services,
+#projects {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.card {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 1.4rem;
+  transition: 300ms ease-in-out;
+  cursor: default;
+}
+
+.card:hover {
+  background: var(--accent);
+}
+
+.icons-services-container {
+  display: flex;
+  justify-content: center;
+  gap: 1.7rem;
+}
+
+.services-container{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.services-icon {
+  width: 2.7rem;
+}
+
+/* PROJECTS AREA */
+
+.project-card {
+  text-align: left;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bt-project-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bt-project {
+  border: 1px transparent black;
+  padding: 1rem;
+  padding-left: 2.7rem;
+  padding-right: 2.7rem;
+  border-radius: 5px;
+  background: var(--accent);
+  transition: 300ms ease-in-out;
+}
+
+.bt-project:hover {
+  border: solid 1px var(--accent);
+  background: transparent;
+}
+
+/* PROJECTS AREA */
+.contacts-container {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+.contact-link {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+
+.contact-icon {
+  width: 1.7rem;
+}
+
+/* FOOTER */
+footer {
+  border-top: 1px solid black;
+}
+
+@media (min-width: 1200px) {
+
+  a{
+    font-size: 1.5rem;
+  }
+
+  body {
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+
+  .title {
+    font-size: 3.3rem;
+  }
+
+  /* BANNER */
+
+
+
+  .banner-icon {
+    width: 11rem;
+  }
+
+  .mine-title {
+    font-size: 4rem;
+  }
+
+  .mine-subtitle {
+    font-size: 3.7rem;
+  }
+
+  .mine-description {
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+  }
+
+
+  /* SERVICES */
+
+  .services-container{
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .card {
+    padding: 3rem;
+    margin: 0;
+    
+  }
+
+  /* PROJECTS */
+  
+  .project-card {
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    align-items: center;
+  }
+  
+  .project-card h3{
+    font-size: 3rem;
+  }
+  .project-card p{
+    font-size: 1.3rem;
+  }
+
+  #projects .project-card:not(.first){
+    margin-top: 6rem;
+  }
+  #projects .project-card:nth-child(odd){
+    flex-direction: row-reverse;
+  }
+}
