@@ -64,6 +64,31 @@ header {
   background: transparent;
 }
 
+/* EXPERIENCE */
+#experience{
+  margin-bottom: 3rem;
+}
+
+.exp-item{
+  display: flex;
+  flex-direction: column;
+  font-size: .8rem;
+}
+
+.exp-item div{
+  padding-left: .5rem;
+}
+
+.exp-item div:first-child{
+  display: flex;
+  justify-content: space-between;
+  border-left: 1px solid var(--accent);
+  
+}
+
+.exp-item div:nth-child(2){
+  line-height: 1.3rem;
+}
 
 /* NAV AREA */
 nav {
