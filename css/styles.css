@@ -19,6 +19,7 @@ body {
   font-family: 'Share Tech Mono', monospace;
   background: var(--primary);
   color: var(--secondary);
+  margin: 1.5rem;
 }
 
 header {
@@ -26,22 +27,20 @@ header {
   background: var(--secondary);
 }
 
+/* BANNER */
+
 #banner {
-  height: 80vh;
-  margin-left: 2rem;
-  line-height: 1.7rem;
-  margin-right: 2rem;
-}
-
-
-#banner,
-#services,
-#projects,
-#contact,
-footer {
   margin-top: 7rem;
-  text-align: center;
+  text-align: left;
+  line-height: 1.7rem;
+  margin-bottom: 3rem;
 }
+
+.mine-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
 
 .mine-subtitle {
   color: var(--accent);
@@ -190,6 +189,10 @@ nav ul {
 footer {
   border-top: 1px solid black;
 }
+
+
+
+
 
 @media (min-width: 1200px) {
 
