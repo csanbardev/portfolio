@@ -199,8 +199,16 @@ nav ul {
 }
 
 /* CONTACT AREA */
+#contact {
+  margin-top: 3rem;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
 .contacts-container {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -218,14 +226,20 @@ nav ul {
 
 
 .contact-icon {
-  width: 1.7rem;
+  width: 1.3rem;
 }
 
 /* FOOTER */
 footer {
+  text-align: center;
+  margin-top: 3rem;
   border-top: 1px solid black;
 }
 
+footer a{
+  cursor: pointer;
+  color: var(--accent);
+}
 
 
 
