@@ -67,28 +67,28 @@ header {
 }
 
 /* EXPERIENCE */
-#experience{
+#experience {
   margin-bottom: 3rem;
 }
 
-.exp-item{
+.exp-item {
   display: flex;
   flex-direction: column;
   font-size: .8rem;
 }
 
-.exp-item div{
+.exp-item div {
   padding-left: .5rem;
 }
 
-.exp-item div:first-child{
+.exp-item div:first-child {
   display: flex;
   justify-content: space-between;
   border-left: 1px solid var(--accent);
-  
+
 }
 
-.exp-item div:nth-child(2){
+.exp-item div:nth-child(2) {
   line-height: 1.3rem;
 }
 
@@ -102,7 +102,7 @@ nav {
   transition: background-color 0.5s ease, border-bottom 0.5s ease;
 }
 
-.nav-fixed{
+.nav-fixed {
   background-color: var(--primary);
   border: none;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -166,13 +166,13 @@ nav ul {
   border-radius: 10px;
 }
 
-.project-link{
+.project-link {
   display: flex;
   gap: .3rem;
 }
 
 
-.project-link-icon{
+.project-link-icon {
   width: 1rem;
 }
 
@@ -236,7 +236,7 @@ footer {
   border-top: 1px solid black;
 }
 
-footer a{
+footer a {
   cursor: pointer;
   color: var(--accent);
 }
@@ -259,9 +259,17 @@ footer a{
     font-size: 3.3rem;
   }
 
+  /* NAV AREA */
+  nav {
+    padding-left: 22rem;
+    width: 100vw;
+  }
+
   /* BANNER */
 
-
+  #banner {
+    margin-top: 13rem;
+  }
 
   .banner-icon {
     width: 11rem;
@@ -295,6 +303,15 @@ footer a{
 
   }
 
+  /* EXPERIENCE */
+  #experience {
+    margin-top: 5rem;
+  }
+
+  .exp-item {
+    font-size: 1.1rem;
+  }
+
   /* PROJECTS */
 
   .project-card {
@@ -304,8 +321,8 @@ footer a{
     align-items: center;
   }
 
-  .project-card h3 {
-    font-size: 3rem;
+  .project-link {
+    font-size: 2.3rem;
   }
 
   .project-card p {
@@ -318,5 +335,13 @@ footer a{
 
   #projects .project-card:nth-child(odd) {
     flex-direction: row-reverse;
+  }
+
+  #contact {
+    margin-top: 11rem;
+  }
+
+  footer {
+    margin-top: 5rem;
   }
 }
