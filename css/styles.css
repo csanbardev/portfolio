@@ -22,6 +22,8 @@ body {
   margin: 1.5rem;
 }
 
+
+
 header {
   height: 3rem;
   background: var(--secondary);
@@ -115,11 +117,10 @@ nav ul {
 
 
 /* SERVICES AREA */
-#services,
+
 #projects {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
 }
 
 .card {
@@ -157,14 +158,24 @@ nav ul {
 
 .project-card {
   text-align: left;
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
+
 
 .project-img {
   width: 100%;
   border-radius: 10px;
 }
+
+.project-link{
+  display: flex;
+  gap: .3rem;
+}
+
+
+.project-link-icon{
+  width: 1rem;
+}
+
 
 .bt-project-container {
   margin-top: 2rem;
@@ -187,7 +198,7 @@ nav ul {
   background: transparent;
 }
 
-/* PROJECTS AREA */
+/* CONTACT AREA */
 .contacts-container {
   padding-top: 2rem;
   display: flex;
