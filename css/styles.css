@@ -308,8 +308,14 @@ footer a {
     margin-top: 5rem;
   }
 
+
+
   .exp-item {
     font-size: 1.1rem;
+  }
+
+  .exp-item .second-row p {
+    line-height: 1.8rem;
   }
 
   /* PROJECTS */
@@ -327,6 +333,7 @@ footer a {
 
   .project-card p {
     font-size: 1.3rem;
+    line-height: 2.1rem;
   }
 
   #projects .project-card:not(.first) {
@@ -339,6 +346,10 @@ footer a {
 
   #contact {
     margin-top: 11rem;
+  }
+
+  .contacts-container {
+    gap: 3rem;
   }
 
   footer {
