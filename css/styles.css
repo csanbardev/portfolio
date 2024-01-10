@@ -157,7 +157,7 @@ nav ul {
 /* PROJECTS AREA */
 
 .project-card {
-  margin-top: 2rem;
+  margin-top: 3rem;
   text-align: left;
 }
 
@@ -175,6 +175,13 @@ nav ul {
 
 .project-link-icon {
   width: 1rem;
+}
+
+
+
+.project-git-link{
+  border-bottom: 1px solid var(--secondary);
+  padding-bottom: .3rem;
 }
 
 
