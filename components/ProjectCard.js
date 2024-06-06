@@ -26,6 +26,7 @@ class ProjectCard extends HTMLElement {
     const summary = this.getAttribute("summary");
     const tech = this.getAttribute("tech");
     const gitLink = this.getAttribute("git-link");
+    const demoLink = this.getAttribute("demo-link")
 
     // Asignar valores al template
     if (projectLink) this.querySelector(".project-link").href = projectLink;
@@ -33,6 +34,7 @@ class ProjectCard extends HTMLElement {
     if (summary) this.querySelector(".project-summary").textContent = summary;
     if (tech) this.renderTech(tech);
     if (gitLink) this.querySelector(".project-git-link").href = gitLink;
+    if(demoLink) this.querySelector(".project-demo-link").href = demoLink
   }
 
   renderTech(tech) {
