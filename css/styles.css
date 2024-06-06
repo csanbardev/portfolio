@@ -160,7 +160,7 @@ nav ul {
 
 .projects-container {
   display: grid;
- 
+ margin-bottom: 2rem;
   gap: 1rem;
 }
 
@@ -179,9 +179,12 @@ nav ul {
   margin: 0;
 }
 
-.utils-heading{
-  padding-top: 1.5rem;
+.webs-heading, .utils-heading{
+  border-left: 1px solid var(--accent);
+  padding-left: .5rem;
+  line-height: 1.7rem;
 }
+
 .project-summary {
   font-size: .8rem;
   font-weight: 300;
