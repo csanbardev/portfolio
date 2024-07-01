@@ -1,3 +1,6 @@
 import '../components/ProjectCard.js'
 import '../components/UtilCard.js'
 import '../components/ContactItem.js'
+import '../components/PostCard.js'
+import '../components/PostsContainer.js'
+import '../components/PostDetails.js'
