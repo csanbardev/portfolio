@@ -10,7 +10,7 @@ class PostsContainer extends HTMLElement {
 
 
   connectedCallback() {
-    fetch('posts/posts.json') // Cambia esto a la ruta correcta de tu JSON
+    fetch('posts/posts.json') 
       .then(response => response.json())
       .then(posts => {
         posts.forEach(post => {
