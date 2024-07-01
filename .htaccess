@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^post$ /post.html [L]
+RewriteRule ^blog$ /blog.html [L]
