@@ -1,5 +1,8 @@
-#posts{
+.posts-title{
   padding-top: 5rem;
+}
+
+#posts{
   display: grid;
   gap: 1rem;
   grid-template-rows: auto;
@@ -38,10 +41,3 @@
   color: var(--white);
 }
 
-
-@media (min-width: 1200px) {
-  /* POST SECTION STYLES */
-  #posts{
-    padding-top: 10rem;
-  }
-}
