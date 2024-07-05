@@ -25,9 +25,21 @@ template.innerHTML = `
     .post-details-content{
       padding-top: 1.5rem;
     }
+    .post-details img{
+      width: 100%;
+    }
+    .post-details p{
+      line-height: 1.7rem;
+    }
+    .post-details a{
+      color: #cf7328;
+    }
     @media (min-width: 1200px) {
       .post-details-title{
         font-size: 3rem;
+      }
+      .post-details img{
+        width: 50%;
       }
     }
   </style>
