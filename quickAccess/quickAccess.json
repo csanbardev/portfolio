@@ -18,5 +18,15 @@
     "id": 4,
     "title": "Rata Chillona",
     "url": "https://ratachillona.com/"
+  },
+  {
+     "id": 5,
+    "title": "Goble",
+    "url": "https://goble-game.com/"
+  },
+  {
+    "id": 6,
+    "title": "ElOtroLado",
+    "url": "https://www.elotrolado.net/"
   }
 ]
