@@ -20,7 +20,7 @@
     "url": "https://ratachillona.com/"
   },
   {
-     "id": 5,
+    "id": 5,
     "title": "Goble",
     "url": "https://goble-game.com/"
   },
@@ -28,15 +28,15 @@
     "id": 6,
     "title": "ElOtroLado",
     "url": "https://www.elotrolado.net/"
+  },
+  {
+    "id": 7,
+    "title": "Absurd Trolley Problems",
+    "url": "https://neal.fun/absurd-trolley-problems/"
+  },
+  {
+    "id": 8,
+    "title": "Noclip",
+    "url": "https://noclip.website/"
   }
-{
-"id": 7,
-"title": "Absurd Trolley Problems",
-"url":"https://neal.fun/absurd-trolley-problems/"
-},
-{
-"id": 8,
-"title": "Noclip",
-"url":"https://noclip.website/"
-},
 ]
